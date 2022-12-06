@@ -9,6 +9,7 @@ for i in range(-250,250,20):
 class Car(Turtle):
     def __init__(self):
         super().__init__()
+        self.hideturtle()
         self.dis=0
     def create_car(self):
         self.penup()
